@@ -1,13 +1,24 @@
 {
-  "name": "@reduxjs/toolkit-query-react",
-  "version": "1.0.0",
-  "description": "",
+  "name": "rainbank-flex",
+  "version": "0.0.0",
+  "private": true,
   "type": "module",
-  "module": "../../dist/query/react/rtk-query-react.legacy-esm.js",
-  "main": "../../dist/query/react/cjs/index.js",
-  "types": "./../../dist/query/react/index.d.ts",
-  "react-native": "./../../dist/query/react/rtk-query-react.legacy-esm.js",
-  "author": "Mark Erikson <mark@isquaredsoftware.com>",
-  "license": "MIT",
-  "sideEffects": false
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^1.55.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
 }
